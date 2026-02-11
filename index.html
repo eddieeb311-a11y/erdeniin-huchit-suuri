@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Эрдэнийн хүчит суурь ХХК - Ажлын танилцуулга</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #0a0a0a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: sans-serif;
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            padding: 0 16px;
+        }
+        .embed-wrapper {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-top: 56.25%;
+            overflow: hidden;
+            border-radius: 12px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+        }
+        .embed-wrapper iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="embed-wrapper">
+            <iframe 
+                loading="lazy"
+                src="https://www.canva.com/design/DAG8Mji7Ims/qviPyf0ihuEfn89dko8X2A/view?embed" 
+                allowfullscreen="allowfullscreen" 
+                allow="fullscreen">
+            </iframe>
+        </div>
+    </div>
+</body>
+</html>
